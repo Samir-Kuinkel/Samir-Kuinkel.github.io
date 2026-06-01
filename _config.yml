@@ -8,79 +8,68 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default"
 title                    : "Samir Kuinkel"
 title_separator          : "-"
-name                     : &name "Samir Kuinkel""
-description              : &description "Samir Kuinkel's academic portfolio — invasive species, climate change & computational ecology"  # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://samir-kuinkel.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+name                     : &name "Samir Kuinkel"
+description              : &description "Samir Kuinkel's academic portfolio - invasive species, climate change and computational ecology"
+url                      : "https://samir-kuinkel.github.io"
+baseurl                  : ""
 repository               : "Samir-Kuinkel/Samir-Kuinkel.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
   avatar           : "profile.png"
   name             : "Samir Kuinkel"
-  pronouns         : # example: "she/her"  
-  bio              : "PhD candidate in Ecology, Evolution & Behavior at UMSL — invasive species, climate change & computational ecology."
+  pronouns         :
+  bio              : "PhD candidate in Ecology, Evolution and Behavior at UMSL studying invasive species, climate change, and computational ecology."
   location         : "St. Louis, Missouri, USA"
-  employer         : "University of Missouri–St. Louis"
-  uri              : # URL
-  email            : "kuinkelsameer@gmail.com" 
-
-  # Academic websites
-  academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  employer         : "University of Missouri-St. Louis"
+  uri              :
+  email            : "kuinkelsameer@gmail.com"
+  academia         :
+  arxiv            :
   googlescholar    : "https://scholar.google.com/citations?user=Ah-s_UIAAAAJ"
-  inspire-hep      : # URL
-  impactstory      : # URL
+  inspire-hep      :
+  impactstory      :
   orcid            : "https://orcid.org/0009-0003-6253-1720"
-  semantic         : # URL
-  ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
-  zotero           : # URL
-
-
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
+  semantic         :
+  ssrn             :
+  pubmed           :
+  researchgate     :
+  scopus           :
+  zotero           :
+  bitbucket        :
+  codepen          :
+  dribbble         :
   github           : "Samir-Kuinkel"
-  kaggle           : # Username  
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
-
-  # Social media
-  artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
+  kaggle           :
+  stackoverflow    :
+  artstation       :
+  bluesky          :
+  facebook         :
+  flickr           :
+  foursquare       :
+  goodreads        :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
   linkedin         : "samir-kuinkel-6b5144136"
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : # Username for X / Twitter
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  mastodon         :
+  medium           :
+  pinterest        :
+  soundcloud       :
+  steam            :
+  telegram         :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  wikipedia        :
+  xing             :
+  youtube          :
+  zhihu            :
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
